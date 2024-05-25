@@ -1,0 +1,70 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/cards.css");
+@import url("components/footer.css");
+
+/* Utilities */
+.container {
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Header Styling */
+header {
+  display: flex; /* Enables flexbox layout */
+  align-items: center; /* Aligns content vertically */
+  background-color: #f0f0f0; /* Light background color */
+  padding: 10px 20px; /* Padding for spacing */
+}
+
+/* Logo Styling */
+header img {
+  height: 70px; /* Adjust logo height as desired */
+  margin-right: 20px; /* Space between logo and navigation */
+}
+
+/* Navigation Bar Styling */
+header nav {
+  flex: 1; /* Allocates remaining space to navigation */
+  text-align: right; /* Aligns navigation links to the right */
+}
+
+header nav ul {
+  list-style: none; /* Removes default list styling */
+  margin: 0; /* Removes default margin */
+  padding: 0; /* Removes default padding */
+}
+
+header nav li {
+  display: inline-block; /* Makes links appear side-by-side */
+  margin-left: 15px; /* Space between navigation links */
+}
+
+header nav a {
+  text-decoration: none; /* Removes underline from links */
+  color: #333; /* Link text color */
+  font-weight: bold; /* Bold font for links */
+}
+
+header nav a:hover {
+  color: #007bff; /* Link hover color */
+}
+
+/* Custom design below! */
